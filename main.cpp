@@ -3,7 +3,7 @@
 
 int main()
 {
-	float num1 = 0, num2 = 0;
+	double num1 = 0, num2 = 0;
 	int switch_number = 0;
 	setlocale(LC_ALL, "Russian");
 	std::cout << "Введите два числа..." << std::endl;
@@ -32,28 +32,28 @@ int main()
 	{
 	case 1:
 	{
-		std::cout << "Сложение в разработке" << std::endl;
+		std::cout << "Результат: " << sum_func(num1, num2) << std::endl;
 		system("pause");
 		break;
 	}
 
 	case 2:
 	{
-		std::cout << "Вычитание в разработке" << std::endl;
+		std::cout << "Результат: " << sub_func(num1, num2) << std::endl;
 		system("pause");
 		break;
 	}
 
 	case 3:
 	{
-		std::cout << "Умножение в разработке" << std::endl;
+		std::cout <<  "Результат: " << mult_func(num1, num2) << std::endl;
 		system("pause");
 		break;
 	}
 
 	case 4:
 	{
-		std::cout << "Деление в разработке" << std::endl;
+		std::cout <<  "Результат: " << div_func(num1, num2) << std::endl;
 		system("pause");
 		break;
 	}

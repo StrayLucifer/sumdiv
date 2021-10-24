@@ -8,3 +8,7 @@ float div(float a, float b) {
 	return a / b;
 }
 
+int sum_func(double a, double b) {
+  return a+b;
+}
+

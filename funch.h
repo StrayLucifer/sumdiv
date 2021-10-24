@@ -1,5 +1,6 @@
 #ifndef _FUNCH_H_ 
 #define _FUNCH_H_
-float mult(float a, float b);       //умножение
-float div(float a, float b);        //деление
+float mult(float a, float b);       //пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+float div(float a, float b);        //пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+int sum_func(double a, double b);
 #endif

@@ -1,7 +1,7 @@
 #ifndef _FUNCH_H_ 
 #define _FUNCH_H_
-float mult(float a, float b);       //���������
-float div(float a, float b);        //�������
-int sum_func(double a, double b);
-int sub_func(double a, double b);
+double mult_func(double a, double b);       //���������
+double div_func(double a, double b);        //�������
+double sum_func(double a, double b);
+double sub_func(double a, double b);
 #endif

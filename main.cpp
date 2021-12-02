@@ -60,6 +60,6 @@ int main()
 	default:
 		break;
 	}
-
+	int test;
 	return 0;
 }
